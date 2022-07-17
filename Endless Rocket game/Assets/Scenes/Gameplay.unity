@@ -5882,7 +5882,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 88b33721cb145af45a1249bf72b1d66a, type: 3}
+    m_Font: {fileID: 12800000, guid: d881f70dd60e2fa46afa2e89b2a7e881, type: 3}
     m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
@@ -5988,8 +5988,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1232726634}
         m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
-        m_MethodName: Restart
-        m_Mode: 1
+        m_MethodName: Home
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

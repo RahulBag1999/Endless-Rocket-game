@@ -5,7 +5,7 @@ using UnityEngine;
 public class LoopingBackground : MonoBehaviour
 {
     [SerializeField] private float backgroundSpeed;
-    public Renderer backgroundRenderer;
+    [SerializeField] private Renderer backgroundRenderer;
 
     void Update()
     {

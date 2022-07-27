@@ -6,6 +6,7 @@ public class Asteroid : MonoBehaviour
 {
     private GameObject Spaceship;
     [SerializeField] private float rotationSpeed;
+
     void Start()
     {
         Spaceship = GameObject.FindGameObjectWithTag("Spaceship");

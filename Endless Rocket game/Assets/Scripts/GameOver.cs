@@ -7,10 +7,11 @@ public class GameOver : MonoBehaviour
 {
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private GameObject pauseButton;
+    [SerializeField] private GameObject spaceship;
     
     void Update()
     {
-        if(GameObject.FindGameObjectWithTag("Spaceship") == null)
+        if(spaceship == null)
         {
             gameOverPanel.SetActive(true);
             pauseButton.SetActive(false);
